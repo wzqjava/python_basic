@@ -430,10 +430,36 @@ print(stu)
 '''
 
 # ---------文件的操作
+'''
+r 读,从开泰
+w 写,覆盖写入
+a,追加写入
+'''
 
-f = open('wzq.txt','w')
-f.write('我是wzq')
+# f = open('wzq.txt','w')
+# f.write('我是wzq')
+# f.close()
+
+# f = open('wzq.txt','r')
+# content = f.read()
+# print(content)
+
+
+#一次性读取readLines
+f = open('wzq.txt','r')
+content = f.readlines()
+print(type(content))
+
+
+for  line in content:
+    print(line)
+
 f.close()
+
+
+
+
+
 
 
 
