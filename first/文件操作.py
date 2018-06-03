@@ -8,10 +8,10 @@
 import  os
 # os.rename('a.txt','wzqa.txt')
 # os.remove('wzqa.txt')
-# os.mkdir('test')
+# os.mkdir('批量修改文件名')
 # os.chdir('./') # 改变目录
 # print os.listdir('./')
 # print os.getcwd() #获取当前目录
 
 
-# os.rmdir('test')
+# os.rmdir('批量修改文件名')
